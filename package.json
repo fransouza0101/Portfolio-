@@ -1,0 +1,34 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Estudo inicial de Jest - turma 0222",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fransouza0101/Portfolio-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fransouza0101/Portfolio-/issues"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Test Report"
+        }
+      ]
+    ]
+  },
+  "homepage": "https://github.com/fransouza0101/Portfolio-#readme",
+  "devDependencies": {
+    "jest": "^29.1.1",
+    "jest-html-reporter": "^3.7.0"
+  }
+}
